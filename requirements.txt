@@ -1,0 +1,9 @@
+streamlit
+yfinance
+pandas
+numpy
+plotly
+psycopg2-binary
+google-generativeai
+ollama
+requests
