@@ -985,7 +985,7 @@ ai_model_option = st.radio(
     horizontal=True
 )
 
-gemini_api_key = st.secrets["GEMINI_API_KEY"]
+gemini_api_key = st.secrets.get("AQ.Ab8RN6KduP2GBWHF1uLwyv7F69UcTkODBAMTHHBT8LLTzJW_1A", "")
 
 for msg in st.session_state.messages:
     if msg.get("role") in ("user", "assistant"):
